@@ -1,0 +1,17 @@
+# DATASET:
+data_directory: temps.csv
+
+# MODEL
+model_directory: models
+model_file: randomforest.pkl
+n_estimators: 1000
+
+# TRAINING
+random_state: 42
+test_size: 0.25
+
+# DATABASE UPDATE
+model_id: 1
+model_name: random_forest
+
+

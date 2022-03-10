@@ -1,0 +1,19 @@
+# DATASET:
+gradient: 1.2
+y_intercept: 2.8
+x_start: 0
+x_end: 10000
+noise_range_start: 0
+noise_range_end: 100
+
+# MODEL
+model_directory: models
+model_file: regressor.pkl
+
+# TRAINING
+test_size: 0.3
+random_state: 0
+
+# DATABASE UPDATE
+model_id: 1
+model_name: linear_regression
